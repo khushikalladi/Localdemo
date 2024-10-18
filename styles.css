@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('1.jpeg') no-repeat center center/cover;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.signin-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.signin-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signin-form h2 {
+    margin-bottom: 20px;
+}
+
+.signin-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signin-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signin-form button:hover {
+    background-color: #0056b3;
+}
